@@ -526,8 +526,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   s:
   - I want my life back.:MC
-  - Got my life back!:MC
+  - AAAAAAAAAAAAAH!!!:MC
   - Can I have more sleep please?:MC
+  - bruh:MC
+  - SMD:MC
 --- !u!114 &476777649
 MonoBehaviour:
   m_ObjectHideFlags: 0

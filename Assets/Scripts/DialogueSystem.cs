@@ -19,7 +19,7 @@ public class DialogueSystem : MonoBehaviour
     {
         // Start function WaitAndPrint as a coroutine.
 
-        coroutine = Speaking( "I want my life back.", "MC");
+        coroutine = Speaking( "WEEEEEE.", "MC");
         speaking = StartCoroutine(coroutine);
     }
 
