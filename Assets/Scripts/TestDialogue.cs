@@ -14,7 +14,7 @@ public class TestDialogue : MonoBehaviour
     public string[] s = new string[]
     {
         "I want my life back.:MC",
-        "Got my life back!",
+        "AAAAAAAAAAAAAH!!!",
         "Can I have more sleep please?"
     };
 
