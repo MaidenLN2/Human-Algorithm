@@ -3362,7 +3362,8 @@ MonoBehaviour:
   m_Text: 'Bracelet:
 
 
-    Personal history backstory or something bruh idk'
+    Reminder of some of the darker times in your life and
+    how you managed to make it through them.'
 --- !u!222 &1666666116
 CanvasRenderer:
   m_ObjectHideFlags: 0
