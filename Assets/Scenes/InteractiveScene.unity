@@ -393,7 +393,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 34
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -404,21 +404,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Guitar:
-
-
-    We''re no strangers to love
-
-
-    You know the rules and
-    so do I
-
-
-    A full commitment''s what I''m thinking of
-
-
-    You wouldn''t
-    get this from any other guy'
+  m_Text: "Guitar\r\n\r\nMy father bought me my first guitar, acoustic FML21, when
+    I was seven and expressed my interest in music. He was so proud of my child\u2019s
+    dream of becoming a famous musician, he wanted to be one too. I dropped music
+    classes after two years and returned to music in the beginning of high school.
+    \r\nI was saving money and bought a new electric guitar but this time my father
+    wasn\u2019t happy. He said it\u2019s easy to make music with a computer and that
+    electric sound is not the same as a live one. It has no soul, he said. I disagreed
+    - it is not a guitar soul that makes music, it is human. My soul is not an artificial
+    one.\r\n"
 --- !u!222 &103227950
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -486,7 +480,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 34
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -497,11 +491,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Diary:
-
-
-    I''ve written many entries in this to work through my feelings.
-    Hopefully I''m the only one reading and writing in this...'
+  m_Text: "Diary \r\n\r\nSometimes I write things here. All kinds of things - what
+    I dream about, important events in my life, drafts on new songs, my fears and
+    insecurities.\r\nRecently I made a new entry. A dream, strangely real and scary.
+    I was an old man left alone in hospital, unable to move and waiting to die. I
+    wonder if it was a prophecy of my future and what I can do to avoid it.  \r\n"
 --- !u!222 &170162067
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1279,7 +1273,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 34
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1290,13 +1284,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Statue:
-
-
-    Feel free to use this one however you want...
-
-    No-one''s
-    watching...'
+  m_Text: "Statue\r\n\r\nMy childhood friend Victor gave it to me when I was in hospital.
+    He was the only one who knew what happened and never judged me. He had a strange
+    sense of humour and wanted to become a comedian.\r\nVictor, the best philosopher
+    I ever knew.\r\n\r\nText engraved on the bottom of the statue\r\n\r\n\u201CThe
+    true realist, if he is not a believer, will always find in himself the strength
+    and ability to disbelieve even a miracle, and if a miracle becomes an irresistible
+    fact before him, he will rather disbelieve his feelings than admit the fact.\u201D\r\n"
 --- !u!222 &753580125
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2377,7 +2371,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 34
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2388,10 +2382,21 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Charger:
+  m_Text: 'Charger
 
+    
 
-    Don''t touch it with a metal fork...'
+    Standard electrical charger in my room. I modified
+    it to increase charge efficiency in a shorter time. Now I can fully charge my
+    guitar in only 7 hours and 38 minutes instead of spending night and a half waiting
+    for charge.
+
+    My mum often complains about electricity bills and assumes
+    the increase comes from my modification. It is not true, but she keeps insisting
+    on it. She is very supportive otherwise, just worried about my financial stability
+    in future.
+
+'
 --- !u!222 &1189009184
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3348,7 +3353,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 34
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -3359,11 +3364,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Bracelet:
-
-
-    Reminder of some of the darker times in your life and
-    how you managed to make it through them.'
+  m_Text: "Bracelet\r\n\r\nI have scars on my wrists and I don\u2019t want people
+    to see them and pity me, I was fifteen, young, stupid and weak. My grades weren\u2019t
+    great, I got kicked out of school band, often was staying late in my room unable
+    to sleep. I felt useless and my life was empty. \r\nMy friend Victor found me
+    bleeding behind school and dragged me to hospital where his sister worked and
+    I recovered. \r\nThere is no pride I take but I feel no shame too. Those were
+    dark times and what has happened did happen. They say, you have to fall before
+    learning how to fly.\r\n"
 --- !u!222 &1666666116
 CanvasRenderer:
   m_ObjectHideFlags: 0
