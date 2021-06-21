@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InteractiveRoom.unity
     guid: 3cfdc4232ef632a40b7686af8d24ac59
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 7d568d326eaf7d441870445625734e75
   m_configObjects: {}
