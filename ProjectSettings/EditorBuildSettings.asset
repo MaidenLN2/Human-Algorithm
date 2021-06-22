@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 7d568d326eaf7d441870445625734e75
+  - enabled: 1
+    path: Assets/Scenes/Implant Shop.unity
+    guid: e6fc4f7bc6933ab4b86042f738226a47
+  - enabled: 1
+    path: Assets/Scenes/Street.unity
+    guid: 31f646100f42ef842bf605e8dffd711e
   m_configObjects: {}
