@@ -26,4 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Extras.unity
     guid: 239ef61263f02b243b7186600e461677
+  - enabled: 1
+    path: Assets/Scenes/Bad ending.unity
+    guid: 4149697cbd5ed4446a5cb262f02ff2a7
+  - enabled: 1
+    path: Assets/Scenes/Good ending.unity
+    guid: 817d7d5db64d2294596884db3082cba4
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 3a19311de4943e44aad39f14766587e9
   m_configObjects: {}
