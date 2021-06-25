@@ -164,7 +164,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &24151479
 GameObject:
@@ -184,7 +184,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &24151480
 RectTransform:
   m_ObjectHideFlags: 0
@@ -759,7 +759,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -801,7 +801,7 @@ GameObject:
   - component: {fileID: 242437676}
   - component: {fileID: 242437675}
   m_Layer: 5
-  m_Name: SaveTest
+  m_Name: Saving
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -824,8 +824,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -264, y: 284}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 449.3851, y: -155}
+  m_SizeDelta: {x: 50, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &242437675
 MonoBehaviour:
@@ -896,15 +896,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.79607844, b: 0, a: 0.5882353}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: f231299674f766843806353caea88cb9, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1030,10 +1030,10 @@ RectTransform:
   m_Father: {fileID: 1600745359}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.2514508, y: 0.58346355}
-  m_AnchorMax: {x: 0.89900005, y: 0.58346355}
-  m_AnchoredPosition: {x: -608.39, y: 224.60999}
-  m_SizeDelta: {x: -650, y: 78.9395}
+  m_AnchorMin: {x: 0, y: 0.87500006}
+  m_AnchorMax: {x: 0.0686738, y: 1}
+  m_AnchoredPosition: {x: -0.13000488, y: -0.14001465}
+  m_SizeDelta: {x: 0, y: -0.0605011}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &492723519
 MonoBehaviour:
@@ -1147,7 +1147,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &526034415
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1802,8 +1802,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -2.5854, y: -1.2758}
+  m_SizeDelta: {x: 39.7971, y: 2.5516}
   m_Pivot: {x: 0.73632, y: 0.5}
 --- !u!114 &724475148
 MonoBehaviour:
@@ -2111,7 +2111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2173,7 +2173,7 @@ RectTransform:
   - {fileID: 103227948}
   - {fileID: 818769110}
   m_Father: {fileID: 1152325159}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2218,36 +2218,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 885575035}
   m_CullTransparentMesh: 1
---- !u!1 &901063232
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 901063233}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &901063233
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 901063232}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 647.67804, y: 288.07166, z: -115.89467}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &904938809
 GameObject:
   m_ObjectHideFlags: 0
@@ -2349,7 +2319,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &952767458
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2481,7 +2451,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1007298143
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2790,7 +2760,7 @@ RectTransform:
   - {fileID: 1189009182}
   - {fileID: 2026121190}
   m_Father: {fileID: 1152325159}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2923,15 +2893,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1142787595}
-  - component: {fileID: 1142787597}
-  - component: {fileID: 1142787596}
   m_Layer: 0
   m_Name: Dialogue Handler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1142787595
 Transform:
   m_ObjectHideFlags: 0
@@ -2940,61 +2908,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142787594}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 267.896, y: -149.0707, z: -897.18726}
+  m_LocalPosition: {x: 828.8513, y: 166.60793, z: -896.866}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1152325159}
-  m_RootOrder: 3
+  m_Father: {fileID: 1699081459}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1142787596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1142787594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd5cf1425c084ad4291511ab3a7a968d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  s:
-  - 'Good morning, honey! I heard you screaming, are you alright?: Mum'
-  - "Yes\u2026 Just a nightmare, nothing to worry about.:MC"
-  - "Of course, it\u2019s just a dream. Have you been staying up late again?:Mum"
-  - "Yeah, just was vibing and decided to remix my latest song, ended up to be quite
-    a slap. I\u2019m thinking about posting it on Tracknet.:MC"
-  - "What a wonderful idea! But son, you should be more concerned with your job rather
-    than playing until morning on the computer. Mixing won\u2019t pay with real money.:MC"
-  - "I\u2019m trying my best, mum.:MC"
-  - "I know, honey, you are doing your best. It\u2019s okay if you haven\u2019t found
-    yourself in twenty one, your dad and I didn\u2019t get a chance to look for ourselves,
-    we had to earn money. We still love you and support you in everything, but\u2026:MC"
-  - "1. I don\u2019t want to talk about it (stops dialogue) || 2. But?.. (continues
-    conversation, +1 empathy) || 3. But you need money. (continues conversation):MC"
-  - "We need to pay rent this month and we don\u2019t have the money, so please don\u2019t
-    miss your job. I know your position is shaky after the last two warnings.:Mum"
-  - "1. I don\u2019t want to talk about it! (stops dialogue) || 2. Mum, I understand
-    that you are worried but you shouldn\u2019t spy on me. (continues conversation,
-    -1 empathy) || 3. I know. (continues conversation):MC"
-  - "You should get ready. I\u2019ll make breakfast meanwhile.:Mum"
---- !u!114 &1142787597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1142787594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 189f585e96e4693428970ed993ba682a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  elements:
-    speechPanel: {fileID: 2065985409}
-    speakerNameText: {fileID: 2100901366}
-    speechText: {fileID: 157841866}
-  isWaitingForUserInput: 0
 --- !u!1 &1152325155
 GameObject:
   m_ObjectHideFlags: 0
@@ -3088,9 +3007,8 @@ RectTransform:
   m_Children:
   - {fileID: 724475147}
   - {fileID: 1600745359}
-  - {fileID: 1315197546}
-  - {fileID: 1142787595}
   - {fileID: 1602250655}
+  - {fileID: 1315197546}
   - {fileID: 2116933265}
   - {fileID: 885575036}
   - {fileID: 1081282338}
@@ -3295,7 +3213,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1243902392
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3531,7 +3449,7 @@ RectTransform:
   - {fileID: 753580123}
   - {fileID: 563459748}
   m_Father: {fileID: 1152325159}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3594,7 +3512,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1306161785
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3708,6 +3626,71 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1306161784}
   m_CullTransparentMesh: 1
+--- !u!1 &1313459666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1313459667}
+  - component: {fileID: 1313459668}
+  - component: {fileID: 1313459669}
+  m_Layer: 0
+  m_Name: CharacterTesting
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1313459667
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313459666}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 545.1303, y: 405.15375, z: -122.14565}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1313459668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313459666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87e9abc53588cf4ab6f6b7c51b36bbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterPanel: {fileID: 1642175764}
+  characterList: []
+--- !u!114 &1313459669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313459666}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6cab3d96f9f47f46ae52551f0a2b50d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mum:
+    characterName: 
+    root: {fileID: 0}
+  speech:
+  - 'My name is Jesus 2: Electric Boogaloo'
+  - How are you?
+  - Oh, really?
 --- !u!1 &1315197545
 GameObject:
   m_ObjectHideFlags: 0
@@ -3739,12 +3722,12 @@ RectTransform:
   - {fileID: 242437674}
   - {fileID: 1792430051}
   m_Father: {fileID: 1152325159}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 1122, y: 631}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1315197547
 MonoBehaviour:
@@ -3775,7 +3758,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1332603092
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3948,7 +3931,7 @@ RectTransform:
   - {fileID: 1666666114}
   - {fileID: 1465214031}
   m_Father: {fileID: 1152325159}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4372,6 +4355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1602250655}
   - component: {fileID: 1602250657}
+  - component: {fileID: 1602250658}
   - component: {fileID: 1602250656}
   m_Layer: 5
   m_Name: SpeechSystem-Root
@@ -4394,7 +4378,7 @@ RectTransform:
   - {fileID: 1642175764}
   - {fileID: 2065985410}
   m_Father: {fileID: 1152325159}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4410,27 +4394,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 1602250654}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: fd5cf1425c084ad4291511ab3a7a968d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  s:
+  - 'Good morning, honey! I heard you screaming, are you alright?: Mum'
+  - "Yes\u2026 Just a nightmare, nothing to worry about.:MC"
+  - "Of course, it\u2019s just a dream. Have you been staying up late again?:Mum"
+  - "Yeah, just was vibing and decided to remix my latest song, ended up to be quite
+    a slap. I\u2019m thinking about posting it on Tracknet.:MC"
+  - "What a wonderful idea! But son, you should be more concerned with your job rather
+    than playing until morning on the computer. Mixing won\u2019t pay with real money.:MC"
+  - "I\u2019m trying my best, mum.:MC"
+  - "I know, honey, you are doing your best. It\u2019s okay if you haven\u2019t found
+    yourself in twenty one, your dad and I didn\u2019t get a chance to look for ourselves,
+    we had to earn money. We still love you and support you in everything, but\u2026:MC"
+  - "1. I don\u2019t want to talk about it (stops dialogue) || 2. But?.. (continues
+    conversation, +1 empathy) || 3. But you need money. (continues conversation):MC"
+  - "We need to pay rent this month and we don\u2019t have the money, so please don\u2019t
+    miss your job. I know your position is shaky after the last two warnings.:Mum"
+  - "1. I don\u2019t want to talk about it! (stops dialogue) || 2. Mum, I understand
+    that you are worried but you shouldn\u2019t spy on me. (continues conversation,
+    -1 empathy) || 3. I know. (continues conversation):MC"
+  - "You should get ready. I\u2019ll make breakfast meanwhile.:Mum"
 --- !u!222 &1602250657
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4439,6 +4425,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1602250654}
   m_CullTransparentMesh: 0
+--- !u!114 &1602250658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602250654}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 189f585e96e4693428970ed993ba682a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elements:
+    speechPanel: {fileID: 2065985409}
+    speakerNameText: {fileID: 2100901366}
+    speechText: {fileID: 157841866}
+  isWaitingForUserInput: 0
 --- !u!1 &1642175763
 GameObject:
   m_ObjectHideFlags: 0
@@ -4612,7 +4615,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1699081459}
   m_Layer: 0
-  m_Name: Disabled SpriteRender Objects
+  m_Name: Disabled Objects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4635,6 +4638,7 @@ Transform:
   - {fileID: 1355251848}
   - {fileID: 1191401552}
   - {fileID: 694424993}
+  - {fileID: 1142787595}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4801,7 +4805,7 @@ GameObject:
   - component: {fileID: 1792430053}
   - component: {fileID: 1792430052}
   m_Layer: 5
-  m_Name: LoadTest
+  m_Name: Loading
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4824,8 +4828,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -91, y: 284}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 519.38513, y: -155}
+  m_SizeDelta: {x: 50, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1792430052
 MonoBehaviour:
@@ -4896,15 +4900,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.79607844, b: 0, a: 0.5882353}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: f231299674f766843806353caea88cb9, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4963,7 +4967,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1914069175
 GameObject:
@@ -5680,7 +5684,7 @@ RectTransform:
   - {fileID: 170162065}
   - {fileID: 661841949}
   m_Father: {fileID: 1152325159}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
