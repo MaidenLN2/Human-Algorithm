@@ -5,15 +5,21 @@ using UnityEngine;
 public class CharacterTesting : MonoBehaviour
 {
     public Character Mum;
+    public Character Dad;
 
     // Start is called before the first frame update
     void Start()
     {
         Mum = CharacterManager.instance.GetCharacter("Mum", enableCreatedCharacterOnstart: false);
+        //Dad = CharacterManager.instance.GetCharacter("Dad", enableCreatedCharacterOnstart: false);
     }
 
     public string[] speech;
     int i = 0;
+
+    public Vector2 moveTarget;
+    public float moveSpeed;
+    public bool smooth;
 
     // Update is called once per frame
     void Update()
@@ -31,7 +37,16 @@ public class CharacterTesting : MonoBehaviour
             }
 
             i++;
+        }
 
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            Mum.MoveTo(moveTarget, moveSpeed, smooth);
+        }
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            Mum.StopMoving(true);
         }
         
     }

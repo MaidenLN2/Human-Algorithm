@@ -1802,7 +1802,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.5854, y: -1.2758}
+  m_AnchoredPosition: {x: -2.5853882, y: -1.2758026}
   m_SizeDelta: {x: 39.7971, y: 2.5516}
   m_Pivot: {x: 0.73632, y: 0.5}
 --- !u!114 &724475148
@@ -2165,15 +2165,15 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 885575035}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1757033341}
   - {fileID: 103227948}
   - {fileID: 818769110}
-  m_Father: {fileID: 1152325159}
-  m_RootOrder: 5
+  m_Father: {fileID: 1284486475}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2760,7 +2760,7 @@ RectTransform:
   - {fileID: 1189009182}
   - {fileID: 2026121190}
   m_Father: {fileID: 1152325159}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3010,7 +3010,6 @@ RectTransform:
   - {fileID: 1602250655}
   - {fileID: 1315197546}
   - {fileID: 2116933265}
-  - {fileID: 885575036}
   - {fileID: 1081282338}
   - {fileID: 1428713177}
   - {fileID: 1284486475}
@@ -3448,8 +3447,9 @@ RectTransform:
   - {fileID: 1950636497}
   - {fileID: 753580123}
   - {fileID: 563459748}
+  - {fileID: 885575036}
   m_Father: {fileID: 1152325159}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3679,7 +3679,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1313459666}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a6cab3d96f9f47f46ae52551f0a2b50d, type: 3}
   m_Name: 
@@ -3687,10 +3687,16 @@ MonoBehaviour:
   Mum:
     characterName: 
     root: {fileID: 0}
+  Dad:
+    characterName: 
+    root: {fileID: 0}
   speech:
   - 'My name is Jesus 2: Electric Boogaloo'
   - How are you?
   - Oh, really?
+  moveTarget: {x: 0, y: 0}
+  moveSpeed: 0
+  smooth: 0
 --- !u!1 &1315197545
 GameObject:
   m_ObjectHideFlags: 0
@@ -3931,7 +3937,7 @@ RectTransform:
   - {fileID: 1666666114}
   - {fileID: 1465214031}
   m_Father: {fileID: 1152325159}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}

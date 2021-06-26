@@ -8,14 +8,19 @@ using UnityEngine;
 /// </summary>
 public class CharacterManager : MonoBehaviour
 {
+    // 
     public static CharacterManager instance = null;
 
+    //
     public RectTransform characterPanel;
 
+    //
     public List<Character> characterList = new List<Character>();
 
+    //
     public Dictionary<string, int> characterDictionary = new Dictionary<string, int>();
 
+    //
     private void Awake()
     {
         if (instance == null)
@@ -28,6 +33,13 @@ public class CharacterManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="characterName"></param>
+    /// <param name="createCharacterIfNotExisting"></param>
+    /// <param name="enableCreatedCharacterOnstart"></param>
+    /// <returns></returns>
     public Character GetCharacter(string characterName, bool createCharacterIfNotExisting = true, bool enableCreatedCharacterOnstart = true)
     {
         int index = -1;
@@ -43,6 +55,12 @@ public class CharacterManager : MonoBehaviour
         return null;
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="characterName"></param>
+    /// <param name="enableOnStart"></param>
+    /// <returns></returns>
     public Character CreateCharacter(string characterName, bool enableOnStart = true)
     {
         Character newCharacter = new Character(characterName, enableOnStart);
