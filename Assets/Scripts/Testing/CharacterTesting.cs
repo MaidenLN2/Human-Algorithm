@@ -16,6 +16,7 @@ public class CharacterTesting : MonoBehaviour
 
     public string[] speech;
     int i = 0;
+    private bool firstRun;
 
     public Vector2 moveTarget;
     public float moveSpeed;
@@ -24,9 +25,15 @@ public class CharacterTesting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (firstRun && i == 0)
+        {
+            Mum.Say(speech[i]);
+            firstRun = false;
+            i++;
+        }
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
-
             if (i < speech.Length)
             {
                 Mum.Say(speech[i]);
@@ -35,8 +42,6 @@ public class CharacterTesting : MonoBehaviour
             {
                 DialogueSystem.instance.Close();
             }
-
-            i++;
         }
 
         if (Input.GetKeyDown(KeyCode.M))

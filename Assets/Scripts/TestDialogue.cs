@@ -18,10 +18,18 @@ public class TestDialogue : MonoBehaviour
         "Can I have more sleep please?"
     };
 
-    int index = 0;
+    public int index = 0;
+    bool firstRun = true;
     // Update is called once per frame
     void Update()
     {
+        if (firstRun && index == 0)
+        {
+            Say(s[index]);
+            firstRun = false;
+            index++;
+        }
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (!dialogue.isSpeaking || dialogue.isWaitingForUserInput)

@@ -21,10 +21,6 @@ public class Character
     // 
     DialogueSystem dialogueSys;
 
-    #region Pissbabies
-
-    #endregion
-
     /// <summary>
     /// 
     /// </summary>
@@ -136,7 +132,7 @@ public class Character
         CharacterManager cm = CharacterManager.instance;
         // locate the character prefab
         GameObject prefab = Resources.Load("Prefabs/Characters/Character[" + _name + "]") as GameObject;
-        GameObject characterInstance = GameObject.Instantiate(prefab, cm.characterPanel);
+        GameObject characterInstance = Object.Instantiate(prefab, cm.characterPanel);
 
         root = characterInstance.GetComponent<RectTransform>();
         characterName = _name;

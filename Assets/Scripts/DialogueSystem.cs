@@ -12,6 +12,7 @@ public class DialogueSystem : MonoBehaviour
     {
         instance = this;
     }
+
     private IEnumerator coroutine;
 
     // Start is called before the first frame update
@@ -19,8 +20,8 @@ public class DialogueSystem : MonoBehaviour
     {
         // Start function WaitAndPrint as a coroutine.
 
-        coroutine = Speaking( "WEEEEEE.", "MC");
-        speaking = StartCoroutine(coroutine);
+        //coroutine = Speaking("WEEEEEE.", "MC");
+        //speaking = StartCoroutine(coroutine);
     }
 
     // say and show in box
@@ -38,6 +39,7 @@ public class DialogueSystem : MonoBehaviour
         {
             StopCoroutine(coroutine);           
         }
+
         speaking = null;
     }
 
@@ -45,6 +47,7 @@ public class DialogueSystem : MonoBehaviour
     public bool isSpeaking {get{return speaking != null;}}
     [HideInInspector] public bool isWaitingForUserInput = false;
     Coroutine speaking = null;
+
     IEnumerator Speaking(string targetSpeech, string speaker)
     {
         speechPanel.SetActive(true);

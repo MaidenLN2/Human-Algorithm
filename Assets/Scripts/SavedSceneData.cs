@@ -14,7 +14,13 @@ public class SavedSceneData : MonoBehaviour
 
     // All of the information that we want to store will be in variables belonging to this singleton "class"
     // This will need to be copied over to the 
-    public int TestInteger = 5;
+    public int Choice01 = -1;
+    public int Choice02 = -1;
+    public int Choice03 = -1;
+    public int Choice04 = -1;
+    public int Choice05 = -1;
+    public int Choice06 = -1;
+    public int Choice07 = -1;
 
     // Runs upon creation and sets the variable to not be deleted when a new scene is loaded
     private void Awake()
@@ -28,8 +34,6 @@ public class SavedSceneData : MonoBehaviour
             Destroy(gameObject);
         }
 
-        TestInteger = 5;
-
         DontDestroyOnLoad(Data.gameObject);
     }
 
@@ -42,6 +46,12 @@ public class SavedSceneData : MonoBehaviour
     {
         SaveTesting data = SaveSystem.LoadSceneData();
 
-        TestInteger = data.TestInteger;
+        Choice01 = data.Choice01;
+        Choice02 = data.Choice02;
+        Choice03 = data.Choice03;
+        Choice04 = data.Choice04;
+        Choice05 = data.Choice05;
+        Choice06 = data.Choice06;
+        Choice07 = data.Choice07;
     }
 }

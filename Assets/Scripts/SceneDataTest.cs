@@ -9,7 +9,7 @@ public class SceneDataTest : MonoBehaviour
     // FixedUpdate is called a set number of times per second - independent of framerate
     private void FixedUpdate()
     {
-        TestReceiver = SavedSceneData.Data.TestInteger + 10;
+        TestReceiver = SavedSceneData.Data.Choice01 + 10;
         Debug.Log(TestReceiver);
     }
 }
